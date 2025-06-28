@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+}
+
+/* Main heading Font */
+.m-heading {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-white {
+    color: antiquewhite
+}
+
+/* Main Container height */
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(banner_image.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Aligning item in main row */
+.main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Setting the font size of the heading (name) */
+.main_row h1 {
+    font-size: 5rem;
+}
+
+/* Making the main image the size of the screen height */
+.main_row img {
+    width: auto;
+    height: 100vh;
+}
