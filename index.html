@@ -1,109 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Sonic the Hedgehog Website</title>
+    <!-- Bootstrap CSS -->
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #a6d8fa;
-        }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 
-        /* Navigation Bar */
-        nav {
-            background-color: #fd5c5c;
-            padding: 12px 20px;
-        }
+    <!-- My CSS -->
 
-        nav ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: flex;
-        }
+    <link rel="stylesheet" href="style.css" />
 
-        nav ul li {
-            margin-right: 20px;
-        }
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 16px;
-        }
+    <!-- Font Awesome -->
 
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
 
-        /* Banner */
-        .banner img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
 
-        /* Page Content */
-        .content {
-            text-align: center;
-            padding: 30px;
-        }
+    <!-- Google Fonts -->
 
-        .content h1 {
-            color: #ff8585;
-        }
-
-        .content p {
-            font-size: 18px;
-            color: #ff0000;
-        }
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <title>
+        Restaurant
+    </title>
 </head>
 
 <body>
+    <div id="about" class="container about pt-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="bazaar.jpg" class="img-fluid">
+            </div>
+            <div class="col-6 pl-5 pt-5 text-white">
+                <h3 class="text-warning">About Baazar</h3>
+                <h1 class="m-heading">Here's our info</h1>
+                <p>
+                    <b class="text-info">At Baazar,</b>This place is known for modern vibe, nice dining, jazz music, sophisticated,and great food great
+                    service.
+                     <b class="text-secondary">We want to make everyone happy</b>,
+                    our eatery is a haven for every food lover. Whether you're craving comfort food, curious to try
+                    something new, or just
+                    looking for a place to indulge, we’ve got you covered.
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">dishes</a></li>
-            <li><a href="#">specials</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Banner Image -->
-    <div class="banner">
-        <img src="bazaar.jpg">
+                    From sizzling starters to decadent desserts, each dish is made with <b class="text-primary">love,
+                        quality ingredients, and a dash of creativity.</b>
+                </p>
+                <br>
+                <p>
+                    We celebrate food in all its forms<b class="text-warning"> traditional, fusion,</b> and everything
+                    in between. Step into Foodies' Paradise and
+                    <b class="text-danger">treat your taste buds</b> to a journey they won’t forget!
+                </p>
+                <button class="btn btn-outline-warning">Learn More</button>
+            </div>
+        </div>
     </div>
-
-    <!-- Page Content -->
-    <div class="content">
-        <h1>Welcome to a random resturant</h1>
-        <p>Some thing about a resteraunt</p>
-    </div>
-    <footer style="background-color: #333; color: white; padding: 20px; text-align: center;">
-        <p style="font-size: 18px; margin-bottom: 10px;">Follow us on social media</p>
-        <a href="https://www.facebook.com" target="_blank"
-            style="margin: 0 10px; color: white; text-decoration: none; font-size: 24px;">
-            <i class="fa fa-facebook"></i> Facebook
-        </a>
-        <a href="https://www.instagram.com" target="_blank"
-            style="margin: 0 10px; color: white; text-decoration: none; font-size: 24px;">
-            <i class="fa fa-instagram"></i> Instagram
-        </a>
-        <a href="https://www.twitter.com" target="_blank"
-            style="margin: 0 10px; color: white; text-decoration: none; font-size: 24px;">
-            <i class="fa fa-twitter"></i> Twitter
-        </a>
-        <p style="margin-top: 15px; font-size: 14px;">All rights reserved.</p>
-    </footer>
-    <!-- Font Awesome for icons -->
-    <script src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"></script>
-    </body>
-    </html>
 </body>
+
 </html>
